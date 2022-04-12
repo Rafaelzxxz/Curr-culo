@@ -1,0 +1,38 @@
+.center {
+  margin: auto;
+  width: 55%;;
+  padding: 5px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 5px;
+  background-color: black;
+}
+
+.grid-container > div{
+  background-color: white;
+  text-align: left;
+  padding-left: 30px;
+  font-size: 15px;
+}
+
+
+
+h1{
+  text-transform: uppercase;
+  }
+
+h3{
+  text-transform: uppercase;
+}
+
+
+.grid-container {
+  position: absolute;
+  left: 600px;
+}
+
+
+
